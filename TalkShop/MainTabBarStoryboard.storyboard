@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Post-->
+        <!--Trending-->
         <scene sceneID="lhQ-WV-fuQ">
             <objects>
                 <viewController storyboardIdentifier="TrendingViewController" id="PxJ-lJ-t6g" customClass="TrendingViewController" customModule="TalkShop" customModuleProvider="target" sceneMemberID="viewController">
@@ -56,7 +56,7 @@
                             <constraint firstAttribute="bottom" secondItem="ZuU-wT-qEh" secondAttribute="bottom" id="tvd-Qu-JOh"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Post" image="ic_trending" id="Ori-YT-Ul4"/>
+                    <tabBarItem key="tabBarItem" title="Trending" image="ic_trending" id="Ori-YT-Ul4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="law-Eb-pYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -124,7 +124,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <tabBarAppearance key="standardAppearance"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="GGm-ir-4hn" kind="relationship" relationship="viewControllers" id="glW-o4-M7p"/>
@@ -138,7 +138,7 @@
     </scenes>
     <resources>
         <image name="LaunchScreenImage-1.jpeg" width="1024" height="1792"/>
-        <image name="home-icon" width="21" height="21"/>
+        <image name="home-icon" width="21.333333969116211" height="21.333333969116211"/>
         <image name="ic_trending" width="21.333333969116211" height="21.333333969116211"/>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

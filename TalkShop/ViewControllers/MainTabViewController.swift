@@ -16,8 +16,6 @@ class MainTabViewController: UITabBarController {
     }
     
     func setupView() {
-        self.tabBar.tintColor = .white
-        
         //remove top line
         self.tabBar.layer.borderWidth = 0
         self.tabBar.clipsToBounds = true
@@ -28,6 +26,10 @@ class MainTabViewController: UITabBarController {
         blurView.autoresizingMask = .flexibleWidth
         tabBar.insertSubview(blurView, at: 0)
         
+        self.tabBar.tintColor = .white
+        self.tabBar.unselectedItemTintColor = .gray
+        
+        //Load profile
         loadUserProfileAPI()
     }
     
