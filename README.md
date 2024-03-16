@@ -23,13 +23,11 @@ https://app.wiremock.cloud/
 
 ## Screenshots
 
-![IMG_1103](https://github.com/iamvijay/SocialFeed/assets/7961006/6c3324ea-6541-4cbe-a15f-f3c84ebe4d7f) 
+![IMG_1103](https://github.com/iamvijay/SocialFeedApp/assets/7961006/a30aea17-70a8-4798-b742-c182df19d0c3)
+![IMG_1104](https://github.com/iamvijay/SocialFeedApp/assets/7961006/8df9e661-a9ff-4d47-92cd-d46d28208c32)
+![IMG_1105](https://github.com/iamvijay/SocialFeedApp/assets/7961006/a0a48061-ac2f-48b6-8a36-6ffd63c6eb17)
+![IMG_1106](https://github.com/iamvijay/SocialFeedApp/assets/7961006/0e897cb1-79bc-423a-9ca2-6e3a6c4a52b6)
 
-![IMG_1104](https://github.com/iamvijay/SocialFeed/assets/7961006/f27f2f13-35ef-4b61-adec-b24257a44b64)
-
-![IMG_1105](https://github.com/iamvijay/SocialFeed/assets/7961006/c07e07f6-c7ed-41f2-9e41-037476af424b)
-
-![IMG_1106](https://github.com/iamvijay/SocialFeed/assets/7961006/b00335f6-26db-4e3b-bb8c-3d9cb44baf5e)
 
 
 
