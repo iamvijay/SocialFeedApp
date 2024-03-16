@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ecM-Rb-6Y5">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Post-->
+        <scene sceneID="lhQ-WV-fuQ">
+            <objects>
+                <viewController storyboardIdentifier="TrendingViewController" id="PxJ-lJ-t6g" customClass="TrendingViewController" customModule="TalkShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2ML-jb-v9j">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenImage-1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="jkR-1E-kD9">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZuU-wT-qEh">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gir-zc-sev">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kwG-Ze-p43">
+                                            <rect key="frame" x="0.0" y="0.0" width="153" height="724"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="EhH-kM-YKu">
+                                                <rect key="frame" x="0.0" y="0.0" width="153" height="724"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="systemUltraThinMaterialDark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qrV-Nk-nT7"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZuU-wT-qEh" firstAttribute="top" secondItem="2ML-jb-v9j" secondAttribute="top" id="4kc-ST-xM5"/>
+                            <constraint firstItem="jkR-1E-kD9" firstAttribute="top" secondItem="2ML-jb-v9j" secondAttribute="top" id="5I6-AU-u56"/>
+                            <constraint firstItem="ZuU-wT-qEh" firstAttribute="leading" secondItem="qrV-Nk-nT7" secondAttribute="leading" id="Dlh-8f-9NP"/>
+                            <constraint firstAttribute="bottom" secondItem="jkR-1E-kD9" secondAttribute="bottom" id="LVH-Sg-Yi6"/>
+                            <constraint firstItem="jkR-1E-kD9" firstAttribute="leading" secondItem="2ML-jb-v9j" secondAttribute="leading" id="Q1n-8C-Lag"/>
+                            <constraint firstItem="qrV-Nk-nT7" firstAttribute="trailing" secondItem="ZuU-wT-qEh" secondAttribute="trailing" id="Uwc-en-bj0"/>
+                            <constraint firstAttribute="trailing" secondItem="jkR-1E-kD9" secondAttribute="trailing" id="iST-wc-Pd5"/>
+                            <constraint firstAttribute="bottom" secondItem="ZuU-wT-qEh" secondAttribute="bottom" id="tvd-Qu-JOh"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Post" image="ic_trending" id="Ori-YT-Ul4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="law-Eb-pYB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="493.89312977099235" y="241.5492957746479"/>
+        </scene>
+        <!--Home Feed-->
+        <scene sceneID="RQo-Nk-g2S">
+            <objects>
+                <viewController storyboardIdentifier="HomeFeedViewController" id="GGm-ir-4hn" customClass="HomeFeedViewController" customModule="TalkShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l04-cG-9DA">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenImage-1.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="Jbv-pH-Ewu">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="diK-mO-5IT">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bWg-ei-qFW">
+                                    <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SPm-Oo-sK6">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="M1m-eY-4gA">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="769"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                    </subviews>
+                                </view>
+                                <blurEffect style="systemUltraThinMaterialDark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iOV-Xh-hHr"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Jbv-pH-Ewu" firstAttribute="width" secondItem="l04-cG-9DA" secondAttribute="width" id="0lU-nN-8WP"/>
+                            <constraint firstItem="diK-mO-5IT" firstAttribute="leading" secondItem="iOV-Xh-hHr" secondAttribute="leading" id="0u3-8c-aGF"/>
+                            <constraint firstItem="iOV-Xh-hHr" firstAttribute="bottom" secondItem="Jbv-pH-Ewu" secondAttribute="bottom" id="6qr-Go-ZiH"/>
+                            <constraint firstItem="diK-mO-5IT" firstAttribute="bottom" secondItem="iOV-Xh-hHr" secondAttribute="bottom" id="BrN-lA-Luv"/>
+                            <constraint firstAttribute="trailing" secondItem="diK-mO-5IT" secondAttribute="trailing" id="It8-ym-5xh"/>
+                            <constraint firstItem="diK-mO-5IT" firstAttribute="top" secondItem="l04-cG-9DA" secondAttribute="top" id="NZl-DC-IeO"/>
+                            <constraint firstItem="Jbv-pH-Ewu" firstAttribute="leading" secondItem="iOV-Xh-hHr" secondAttribute="leading" id="RpX-R1-nqy"/>
+                            <constraint firstItem="Jbv-pH-Ewu" firstAttribute="top" secondItem="l04-cG-9DA" secondAttribute="top" id="ahU-Ig-EBR"/>
+                            <constraint firstItem="iOV-Xh-hHr" firstAttribute="trailing" secondItem="Jbv-pH-Ewu" secondAttribute="trailing" id="ghh-Yn-cOd"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home Feed" image="home-icon" id="RNh-Xw-klX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V69-mE-FII" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-396.18320610687022" y="-142.25352112676057"/>
+        </scene>
+        <!--Main Tab View Controller-->
+        <scene sceneID="jnC-v7-qqk">
+            <objects>
+                <tabBarController storyboardIdentifier="MainTabViewController" id="ecM-Rb-6Y5" customClass="MainTabViewController" customModule="TalkShop" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="y7Q-vc-qhz">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <tabBarAppearance key="standardAppearance"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="GGm-ir-4hn" kind="relationship" relationship="viewControllers" id="glW-o4-M7p"/>
+                        <segue destination="PxJ-lJ-t6g" kind="relationship" relationship="viewControllers" id="PFP-hC-Txl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kcj-6B-zHP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2288" y="242"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreenImage-1.jpeg" width="1024" height="1792"/>
+        <image name="home-icon" width="21" height="21"/>
+        <image name="ic_trending" width="21.333333969116211" height="21.333333969116211"/>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
